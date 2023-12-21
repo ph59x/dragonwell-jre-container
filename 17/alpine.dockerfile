@@ -1,6 +1,6 @@
 FROM alpine:3.18
 
-ENV JAVA_VERSION jdk-17.0.9.0.10+9
+ENV JAVA_VERSION jre-17.0.9.0.10+9
 
 RUN apk add --no-cache ca-certificates musl-locales musl-locales-lang openssl wget && \
     wget --no-verbose \
