@@ -1,3 +1,5 @@
+[English](./readme.md) | 中文
+
 [Alibaba Dragonwell](https://github.com/dragonwell-project) 的 Docker 镜像。使用JRE进行构建。
 
 # 与 [dragonwell-project/droganwell-containers](https://github.com/dragonwell-project/dragonwell-containers/) 的区别

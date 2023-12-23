@@ -1,3 +1,5 @@
+English | [中文](./readme_CN.md)
+
 Docker image for [Dragonwell](https://github.com/dragonwell-project), a downstream version of OpenJDK. Use JRE to build.
 
 # What's different from [dragonwell-project/droganwell-containers](https://github.com/dragonwell-project/dragonwell-containers/)
