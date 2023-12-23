@@ -4,6 +4,23 @@
 
 修改自 [dragonwell-project/droganwell-containers](https://github.com/dragonwell-project/dragonwell-containers/)
 
+## 可用镜像版本
+
+|Dragonwell版本|Alpine|Debian slim|Ubuntu|
+|--------------|------|-----------|------|
+|8             |❌    |✔         |✔     |
+|11            |✔     |✔         |✔     |
+|17            |✔     |✔         |✔     |
+|21            |✔     |✔         |✔     |
+
+### 基础包信息
+
+|系统       |版本 |
+|-----------|-----|
+|Alpine     |3.18 |
+|Ubuntu     |22.04|
+|Debian Slim|12   |
+
 ## 区别
 
 - 使用 `jlink`在构建时生成JRE

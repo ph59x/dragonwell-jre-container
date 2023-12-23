@@ -4,6 +4,23 @@ Docker image for [Dragonwell](https://github.com/dragonwell-project), a downstre
 
 Modifided from [dragonwell-project/droganwell-containers](https://github.com/dragonwell-project/dragonwell-containers/)
 
+## Supported Platform
+
+|Dragonwell Version|Alpine|Debian slim|Ubuntu|
+|------------------|------|-----------|------|
+|8                 |❌    |✔         |✔     |
+|11                |✔     |✔         |✔     |
+|17                |✔     |✔         |✔     |
+|21                |✔     |✔         |✔     |
+
+### Base image info
+
+|OS         |Version|
+|-----------|-------|
+|Alpine     |3.18   |
+|Ubuntu     |22.04  |
+|Debian Slim|12     |
+
 ## Differences
 
 - Generate JRE for image build, using `jlink`
