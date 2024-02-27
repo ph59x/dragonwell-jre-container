@@ -14,11 +14,11 @@
 
 FROM ubuntu:22.04
 
-ENV JAVA_VERSION jdk8u382-b01
+ENV JAVA_VERSION jre8u402
 
 RUN apt-get update && apt-get install -y curl && \
     cd /tmp && \
-    curl -LfsSo /tmp/openjdk.tar.gz https://github.com/dragonwell-project/dragonwell8/releases/download/dragonwell-standard-8.16.17_jdk8u382-ga/Alibaba_Dragonwell_Standard_8.16.17_x64_linux.tar.gz && \
+    curl -LfsSo /tmp/openjdk.tar.gz https://github.com/dragonwell-project/dragonwell8/releases/download/dragonwell-standard-8.18.19_jdk8u402-ga/Alibaba_Dragonwell_Standard_8.18.19_x64_linux.tar.gz && \
     mkdir -p /tmp/openjdk && cd /tmp/openjdk && \
     tar -zxf /tmp/openjdk.tar.gz --strip-components=1 && \
     mkdir -p /opt/java/jre && \
